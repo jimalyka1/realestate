@@ -7,11 +7,11 @@ import { MdOutlineBedroomParent } from "react-icons/md";
 import { TbCarGarage } from "react-icons/tb";
 
 
-export const metadata = {
-  title: "",
-  description: "",
-  keywords: `company, services`,
-};
+// export const metadata = {
+//   title: "",
+//   description: "",
+//   keywords: `company, services`,
+// };
 
 interface PropertyPageProps {
   params: {
@@ -19,7 +19,7 @@ interface PropertyPageProps {
   };
 }
 
-export default async function PropertyPage({ params }: PropertyPageProps) {
+export default async function PropertyPage({ params }: any) {
   const {slug } = await params;
   const propertyData = properties.find(
     (property) => property.slug === slug
@@ -42,9 +42,9 @@ export default async function PropertyPage({ params }: PropertyPageProps) {
     year,
   } = propertyData;
 
-  metadata.title = `${title} ${formatCurrency(price)}`;
-  metadata.description = `${title} - ${location} ${formatCurrency(price)}`;
-  metadata.keywords = `${title}, ${location}, ${type}`;
+  // metadata.title = `${title} ${formatCurrency(price)}`;
+  // metadata.description = `${title} - ${location} ${formatCurrency(price)}`;
+  // metadata.keywords = `${title}, ${location}, ${type}`;
 
   // get related properties
   const relatedProperties = properties
