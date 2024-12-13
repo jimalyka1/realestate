@@ -22,18 +22,18 @@ export default function page() {
             <div className="lg:col-span-2 lg:py-12">
               <p className="max-w-xl text-lg">
                 At the same time, the fact that we are wholly owned and totally
-                independent from manufacturer and other group control gives you
+                independent from other Real Esate Agents and other group we gives you
                 confidence that we will only recommend what is right for you.
               </p>
 
               <div className="mt-8">
                 <a href="#" className="text-2xl font-bold text-pink-600">
                   {" "}
-                  0151 475 4450{" "}
+                  +234-818-588-0377{" "}
                 </a>
 
                 <address className="mt-2 not-italic">
-                  282 Kevin Brook, Imogeneborough, CA 58517
+                  282 Mongregomery, Sabo Yaba, Lagos
                 </address>
               </div>
             </div>
@@ -142,7 +142,7 @@ export default function page() {
                   <textarea
                     className="w-full rounded-lg border-gray-200 p-3 text-sm"
                     placeholder="Message"
-                    rows={8}
+                    rows="8"
                     id="message"
                   ></textarea>
                 </div>
