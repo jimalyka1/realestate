@@ -147,7 +147,7 @@ export const properties = [
       garages: 0,
       type: "Apartment",
       year: 2024,
-      description: "this is a very good property"
+      description: "This is a very good property"
     },
     {
       id: 11,
@@ -162,7 +162,7 @@ export const properties = [
       garages: 0,
       type: "Apartment",
       year: 2024,
-      description: "this is a very good property"
+      description: "This is a very good property with a very condusive area"
     },
 
 {
@@ -178,7 +178,7 @@ export const properties = [
       garages: 0,
       type: "Apartment",
       year: 2024,
-      description: "this is a very good property"
+      description: "This is a very good property"
     },
     // Add more properties...
 
